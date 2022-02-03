@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/courses/[slug]": "pages/courses/[slug].js",
+  "/hooks": "pages/hooks.html",
+  "/": "pages/index.js",
+  "/marketplace/courses/managed": "pages/marketplace/courses/managed.html",
+  "/marketplace/courses/owned": "pages/marketplace/courses/owned.js",
+  "/marketplace": "pages/marketplace.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/courses/[slug]": "pages/courses/[slug].js"
+  "/404": "pages/404.html"
 }
