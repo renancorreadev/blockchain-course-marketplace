@@ -18,8 +18,8 @@ export default function Hero() {
       </div>
       <div className="mt-5 sm:mt-8 flex lg:justify-center ">
         <div
-          className="rounded-md shadow"
-          style={{ width: '1830px', height: '330px' }}
+          className="rounded-md "
+          style={{ width: '1830px', height: '400px' }}
         >
           <a
             href="#"

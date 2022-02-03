@@ -19,7 +19,9 @@ export default function EthRates() {
                 style={{ Position: 'relative', marginLeft: '50px' }}
               />
 
-              <span className="text-xl font-bold">= {eth.data}$</span>
+              <span className="text-xl font-bold" style={{ color: 'white' }}>
+                = {eth.data}$
+              </span>
             </>
           ) : (
             <div className="w-full flex justify-center">
@@ -27,28 +29,39 @@ export default function EthRates() {
             </div>
           )}
         </div>
-        <p className="text-lg text-white-500">Current BNB Price</p>
+        <p className="text-lg " style={{ color: 'white' }}>
+          Current BNB Price
+        </p>
       </div>
       <div className="p-6 border drop-shadow rounded-md">
         <div className="flex items-center justify-center">
           {eth.data ? (
             <>
-              <span className="text-xl font-bold">{eth.perItem}</span>
+              <span className="text-xl font-bold" style={{ color: 'white' }}>
+                {eth.perItem}
+              </span>
               <Image
                 layout="fixed"
                 height="30"
                 width="30"
                 src="/small-eth.webp"
               />
-              <span className="text-xl font-bold">= {COURSE_PRICE}$</span>
+              <span className="text-xl font-bold" style={{ color: 'white' }}>
+                = {COURSE_PRICE}$
+              </span>
             </>
           ) : (
-            <div className="w-full flex justify-center">
+            <div
+              className="w-full flex justify-center"
+              style={{ color: 'white' }}
+            >
               <Loader size="md" />
             </div>
           )}
         </div>
-        <p className="text-lg text-white-500">Price per course</p>
+        <p className="text-lg text-white-500" style={{ color: 'white' }}>
+          Price por curso
+        </p>
       </div>
     </div>
   )
