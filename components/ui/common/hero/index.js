@@ -13,8 +13,8 @@ export default function Hero() {
         className="mt-6 text-xl font-light  antialiased"
         style={{ color: 'white' }}
       >
-        Veja todos nossos cursos e desenvolva novas habilidades para todas novas
-        habilidades, agora pagamento em criptomoedas.
+        Veja todos nossos cursos e desenvolva novas habilidades. Pague em cripto
+        e em breve utilize nosso token.
       </div>
       <div className="mt-5 sm:mt-8 flex lg:justify-center ">
         <div
